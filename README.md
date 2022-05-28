@@ -1,0 +1,1 @@
+# chrome-split-screen-ext
