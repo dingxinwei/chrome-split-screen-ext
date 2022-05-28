@@ -1,0 +1,35 @@
+{
+  "name": "浏览器分屏插件",
+  "description": "浏览器分屏插件",
+  "version": "1.0",
+  "offline_enabled": true,
+  "manifest_version": 2,
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "split-screen-left": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Z",
+        "mac": "Command+Shift+Z"
+      },
+      "description": "split screen left"
+    },
+    "split-screen-right": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "split screen right"
+    },
+    "full-screen": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "full screen"
+    }
+  }
+}
